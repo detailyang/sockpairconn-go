@@ -17,8 +17,6 @@ install: true
 notifications:
   email: false
 
-before_script:
-
 script:
   - make test
   - make bench
